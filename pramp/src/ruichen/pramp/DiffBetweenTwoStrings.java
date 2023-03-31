@@ -8,7 +8,7 @@ public class DiffBetweenTwoStrings {
     // https://www.pramp.com/challenge/5j2xWAx1qPtlZGLnG2O0
 
     class Solution {
-        // This solution passes 6/8 test cases. I manually examined the failed tests, and I believe that my solution is indeed correct and favors removal first, and that the test cases are incorrect.
+        // This solution passes 6/8 test cases. I manually examined the failed tests, and I believe that my solution is indeed correct and favors removal first.
         // TC = O(mn), SC = O(mn)
         public String[] diffBetweenTwoStrings(String source, String target) {
             // 1. Run edit distance (replace not allowed)
