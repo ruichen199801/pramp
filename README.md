@@ -22,6 +22,8 @@ This repository contains my solutions to Pramp coding problems in Java.
 
 - [Pancake Sort](./pramp/src/ruichen/pramp/PancakeSort.java)
 
+- [Array Index & Element Equality](./pramp/src/ruichen/pramp/ArrayIndexAndElementEquality.java)
+
 ## String
 
 - [Sentence Reverse](./pramp/src/ruichen/pramp/SentenceReverse.java)

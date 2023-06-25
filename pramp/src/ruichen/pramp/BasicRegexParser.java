@@ -47,11 +47,8 @@ public class BasicRegexParser {
                     if (p == t || p == '.') {
                         dp[i][j] = dp[i - 1][j - 1];
                     } else if (p == '*') {
-                        dp[i][j] = dp[i][j - 2] ||
-                                // [acd ac*d] or [acd a.*d]: match c
-                                // acd:  c - i-1
-                                // ac*d: * - j-1, c - j-2
-                                (dp[i - 1][j] && (pattern.charAt(j - 2) == t || pattern.charAt(j - 2) == '.'));
+                        dp[i][j] = dp[i][j - 2] || // Match 0 character
+                                (dp[i - 1][j] && (pattern.charAt(j - 2) == t || pattern.charAt(j - 2) == '.')); // Match 1 or more characters
                     }
                 }
             }
