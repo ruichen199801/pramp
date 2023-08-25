@@ -1,8 +1,6 @@
 # Pramp Solutions
 
-Created by Ruichen in 3/2023. Last updated in 6/2023.
-
-This repository contains my solutions to Pramp coding problems in Java.
+My solutions to Pramp interview questions in Java.
 
 ## Array & Sorting
 
